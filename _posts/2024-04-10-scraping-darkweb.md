@@ -5,7 +5,7 @@ categories:
   - CODING
 tags:
   - python
-  - "#dark-web"
+  - dark-web
 ---
 # Scraping Dark Web
 
