@@ -1,11 +1,8 @@
 ---
 title: Scraping Dark Web
 date: 2024-04-10 15:19
-categories:
-  - CODING
-tags:
-  - python
-  - dark-web
+categories: [CODING]
+tags: [python, dark-web]
 ---
 
 
