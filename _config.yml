@@ -16,7 +16,7 @@ timezone:
 
 title: Sebastien Neyt # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: Coding, CTFs, Cybersecurity # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -50,7 +50,7 @@ google_site_verification: # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: # fill in your Google Analytics ID
+  id: G-8W4ELHJFHS
 
 goatcounter:
   id: # fill in your Goatcounter ID
