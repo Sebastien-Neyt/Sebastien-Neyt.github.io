@@ -43,7 +43,7 @@ If we try to use `curl` and wrap it we see that we still need to configure it.
 
 We open the Tor configuration file:
 
-```Shell
+```shell
 sudo vim /etc/tor/torrc
 ```
 
@@ -54,7 +54,7 @@ Make sure the 'ControlPort' is enabled. Enabling the control port allows externa
 CookieAuthentication should be set to 1. Tor will generate a cookie file containing a random value that serves as an auth-token ('**control_auth_cookie**'). The control port will only accept connections from processes that provide this token.
 
 Restart the tor-service:
-```Shell
+```shell
 sudo service tor restart
 ```
 
@@ -67,7 +67,7 @@ We do this by using the `--socks5-hostname` flag. Specify our current localhost 
 
 ![socks5-hostname flag man](/assets/img/dws/sdw4.png)
 
-```Shell
+```shell
 curl --socks5-hostname 127.0.0.1:9050 http://lockbit7z2jwcskxpbokpemdxmltipntwlkmidcll2qirbu7ykg46eyd.onion/
 ```
 
@@ -81,12 +81,12 @@ curl --socks5-hostname 127.0.0.1:9050 http://lockbit7z2jwcskxpbokpemdxmltipntwlk
 ---
 
 Install the required python lib by running following cmd:
-```Shell
+```shell
 pip install requests_tor
 ```
 
 Simple example:
-```Python
+```python
 from requests_tor import RequestsTor
 
 requests = RequestsTor(tor_ports=(9050,), tor_cport=9051)
