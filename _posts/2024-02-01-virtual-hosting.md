@@ -1,8 +1,8 @@
 ---
 title: Virtual Hosting
 date: 2024-02-01 12:51
-categories: [WEB, FUNDAMENTALS]
-tags: [HTTP]
+categories: [WEB, FUNDAMENTALS, WEB APPLICATIONS]
+tags: [virtual-hosting, ffuf]
 ---
 
 ## What is it?
