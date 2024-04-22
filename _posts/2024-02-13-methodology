@@ -1,8 +1,8 @@
 ---
 title: Methodology
-date: 2024-02-13 12:10
+date: 2024-02-13 10:19
 categories: [ENUMERATION]
-tags: []
+tags: [enum]
 ---
 
 Enumeration is not really a step or phase. We continue to enumerate throughout every step of testing an application. Even during exploitation, especially when our exploits fail, we continue to enumerate. So with that, one could argue that this is the most critical skill to develop.
