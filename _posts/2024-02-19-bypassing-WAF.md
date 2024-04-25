@@ -96,8 +96,6 @@ COMMAND  |  WHAT TO USE INSTEAD
 concat()   |  concat_ws()       
 group_concat() | concat_ws()      
 ```
-
-Learning MySQL Really helps on such issues!  
   
 ### 4. Misc Exploitable Functions:  
 
